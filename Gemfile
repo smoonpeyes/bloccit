@@ -24,20 +24,10 @@ group :assets do
   gem 'bootstrap-sass', '~> 2.3.1.0'
   gem 'uglifier', '>= 1.0.3'
   gem 'sass', '3.2.10'
-  gem 'jquery-rails'
 end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
+gem 'jquery-rails'
+gem 'newrelic_rpm'
+gem 'jquery-rails'
+gem 'faker'
+gem 'devise'
