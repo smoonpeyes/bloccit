@@ -42,7 +42,11 @@ devise :database_authenticatable, :registerable,
   def favorited(post)
     self.favorites.where(post_id: post.id).first
   end
-  
+
+  def voted(post)
+    self.votes.where(post_id: post.id).first
+  end
+
   private
 
   def set_member
